@@ -15,6 +15,7 @@ app = dash.Dash(
 )
 app.title = "Dashboard de energía - Alejandro"
 # Dashboard de energia desarrollado para el taller de GitHub - MIAD
+# Ejercicio individual de Pull Request y control de versiones
 
 server = app.server
 app.config.suppress_callback_exceptions = True

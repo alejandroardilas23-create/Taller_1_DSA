@@ -14,6 +14,7 @@ app = dash.Dash(
     meta_tags=[{"name": "viewport", "content": "width=device-width, initial-scale=1"}],
 )
 app.title = "Dashboard de energía - Alejandro"
+# Dashboard de energia desarrollado para el taller de GitHub - MIAD
 
 server = app.server
 app.config.suppress_callback_exceptions = True
